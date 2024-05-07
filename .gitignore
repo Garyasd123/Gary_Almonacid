@@ -1,0 +1,5 @@
+#Ignorar archivo secreto
+txt.txt
+
+#Ignorar carpeta secreta
+carpeta_secreta/

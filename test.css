@@ -1,0 +1,69 @@
+body {
+    background-image: url('fondo\ blanco.avif'); /* Imagen de fondo del cuerpo */
+    background-size: cover; /* La imagen de fondo cubre todo el cuerpo */
+    background-position: center; /* Posición centrada de la imagen de fondo */
+    font-family: Arial, sans-serif; /* Fuente predeterminada para todo el cuerpo */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin relleno */
+}
+
+header {
+    background-color: #007bff; /* Color de fondo del encabezado */
+    color: white; /* Color de texto del encabezado */
+    padding: 20px; /* Relleno interno del encabezado */
+    text-align: center; /* Texto centrado dentro del encabezado */
+}
+
+nav ul {
+    list-style-type: none; /* Sin viñetas en la lista de navegación */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin relleno */
+}
+
+nav ul li {
+    display: inline; /* Mostrar elementos de lista en línea */
+    margin-right: 20px; /* Margen derecho entre elementos de lista */
+    color: #ffcc00; /* Color de texto personalizado para elementos de lista */
+    background-color: white; /* Color de fondo personalizado para elementos de lista */
+}
+
+main {
+    padding: 20px; /* Relleno interno del contenido principal */
+}
+
+#intro {
+    text-align: center; /* Texto centrado para la sección de introducción */
+    margin-bottom: 40px; /* Margen inferior de la sección de introducción */
+}
+
+#phones {
+    text-align: center; /* Texto centrado para la sección de teléfonos */
+    margin-bottom: 40px; /* Margen inferior de la sección de teléfonos */
+}
+
+#phones img {
+    max-width: 100%; /* Ancho máximo de la imagen de teléfono */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+#contact {
+    text-align: center; /* Texto centrado para la sección de contacto */
+    margin-bottom: 40px; /* Margen inferior de la sección de contacto */
+}
+
+footer {
+    background-color: #f8f9fa; /* Color de fondo del pie de página */
+    text-align: center; /* Texto centrado en el pie de página */
+    padding: 20px; /* Relleno interno del pie de página */
+}
+
+header h1{
+    text-align: center; /* Texto centrado para el título del encabezado */
+}
+
+.price {
+    font-size: 24px; /* Tamaño de fuente más grande para los precios */
+    font-weight: bold; /* Texto en negrita para los precios */
+    color: #ff3366; /* Color de texto personalizado para los precios */
+    font-family: 'Arial', sans-serif; /* Tipo de fuente personalizado para los precios */
+}

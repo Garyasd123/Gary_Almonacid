@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Dispositivos Telefónicos</title>  <!-- Título de la página -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"> <!-- Enlace a la hoja de estilos de Bootstrap -->
+    <link rel="stylesheet" href="test.css"> <!-- Enlace a una hoja de estilos personalizada -->
+</head>
+<body> <!-- Inicio del cuerpo del documento -->
+    <header> <!-- Sección de encabezado -->
+        <h1>VENTA DISPOSITIVOS TELEFONICOS</h1> <!-- Título principal -->
+        <nav> <!-- Navegación -->
+            <ul> <!-- Lista desordenada -->
+                <li><a href="#">Inicio</a></li> <!-- Elemento de lista con un enlace -->
+                <li><a href="https://www.samsung.com/cl/smartphones/">Productos</a></li> <!-- Elemento de lista con un enlace-->
+                <li><a href="https://www.samsung.com/cl/support/whatsapp/">Contacto</a></li> <!-- Elemento de lista con un enlace-->
+            </ul>
+        </nav>
+    </header>
+
+    <main> <!-- Sección principal del contenido -->
+        <section id="intro">
+            <h2>¡Descubre la oferta del año en telefonía móvil! 📱</h2>
+            <p>¿Estás listo para dar el salto a la tecnología de vanguardia? ¡Entonces no puedes perderte nuestra promoción exclusiva de teléfonos móviles! Con las mejores marcas y los modelos más avanzados, tenemos el dispositivo perfecto para ti.</p>
+        </section>
+        <!-- Lista Telefonos -->
+        <section id="phones">
+            <div class="container"> <!-- Contenedor -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="celular7.webp" class="img-fluid" alt="Teléfono 1">
+                        <h2>Samsung Galaxy S24</h2>
+                        <ul>
+                            <p class="price">$915.000</p>
+                            <li>Tamaño Pantalla:6.2"</li>
+                            <li>Memoria Interna:256GB</li>
+                            <li>Camara Posterior:50MP+10MP+12MP</li>
+                            <li>Conectividad: 5G</li><br>
+                            <button onclick="window.location.href='https://www.samsung.com/cl/smartphones/galaxy-s24/buy/?modelCode=SM-S921BZKJLTL&cid=cl_pd_ppc_prfmx_none_ecommerce_dtc-mx-aon-lower-acc-wea_banner_dtc-pmax5_generico&gad_source=1&gclid=Cj0KCQjw_-GxBhC1ARIsADGgDjvXNDYQjngdFBggfqIjPt4RmiWO4K8VLVBPKO041BVuHsr97dDRKt8aAoE_EALw_wcB'">Comprar</button>
+                            <!-- Botón de compra -->
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="celular5.webp" class="img-fluid" alt="Teléfono 2">
+                        <h2>Samsung Galaxy A25</h2>
+                            <p class="price">$259.990</p>
+                            <li>Tamaño Pantalla:6.5"</li>
+                            <li>Memoria Interna:128GB</li>
+                            <li>Camara Posterior: 50MP + 8MP + 2MP</li>
+                            <li>Conectividad: 5G</li><br>
+                            <button onclick="window.location.href='https://miportal.entel.cl/personas/catalogo/prod2250084?omc=c_shopping&gad_source=1&gclid=Cj0KCQjw_-GxBhC1ARIsADGgDjsAeKIyRFGR3x-3rbWiAmTdAQaV_anHGT06LKVRmNp1L6vqviyYKpUaAhzrEALw_wcB&gclsrc=aw.ds'">Comprar</button>
+                            <!-- Botón de compra -->
+                    </div>
+                    <div class="col-md-4">
+                        <img src="celular4.webp" class="img-fluid" alt="Teléfono 3">
+                        <h2>Samsung Galaxy A15</h2>
+                            <p class="price">$159.000</p>
+                            <li>Tamaño Pantalla:6.5"</li>
+                            <li>Memoria Interna:128GB</li>
+                            <li>Camara Posterior: 50MP + 5MP + 2MP</li>
+                            <li>Conectividad: 4G</li><br>
+                            <button onclick="window.location.href='https://miportal.entel.cl/personas/catalogo/prod2250071?omc=c_shopping&gad_source=1&gclid=Cj0KCQjw_-GxBhC1ARIsADGgDjsehUYfsat5_j21yKxa15wLRnTTKAFJk21mEGyOFqIEQ0mXprF7Fn4aArCJEALw_wcB&gclsrc=aw.ds'">Comprar</button>
+                            <!-- Botón de compra -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>¿Te ayudamos con tu busqueda?</h2>
+                <form> <!-- Formulario de contacto -->
+                    <div class="form-group"> 
+                        <label for="name">Nombre:</label> <!-- Campos para nombre, correo electrónico y mensaje -->
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Detallanos lo que buscas:</label>
+                        <textarea class="form-control" id="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer> <!-- Pie de página -->
+        <p>&copy; Todos los derechos reservados por Gary Almonacid.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+                <!-- Script de Bootstrap -->
+</body>
+</html>
